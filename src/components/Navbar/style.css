@@ -1,51 +1,23 @@
-.nav{
-position: absolute;
-width: 100%;
-height: 65px;
-left: 0px;
-top: 0px;
-background-color: #672280;
-}
-
-nav{
+.header {
     display: flex;
-    justify-items: center;
     align-items: center;
-    position: absolute;
-    width: 493px;
-    height: 26.22px;
-    left: 20px;
-    top: 19px;
+    height: 65px;
+    background: #0F3460;
+    color: white;
+    padding: 20px;
 }
 
-.logo{
-    position: absolute;
-    width: 34.31px;
-    height: 29.22px;
-    left: 20px;
+.header--image {
+    height: 100%;
+    margin-right: 6px;
 }
 
-.app{
-    position: absolute;
-    height: 24px;
-    left: 58px;
-    font-size: 27.7482px;
-    line-height: 24px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-
+.header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
 }
 
-.source{
-    position: absolute;
-    /* width: 147px; */
-    height: 14px;
-    left: 80rem;
-    font-family: 'Inter';
-    font-style: normal;
+.header--project {
+    /* font-size: 0.75rem; */
     font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: right;
-    color: #FFFFFF;
 }

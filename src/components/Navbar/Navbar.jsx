@@ -4,13 +4,15 @@ import Logo from '../../img/face.png';
 
 const Navbar = () => {
   return (
-    <div className="nav">
-        <nav>
-            <img src={Logo} alt="logo" className='logo' />
-            <h4 className='app'>Meme Generator</h4>
-            <h4 className='source'>Github</h4>
-        </nav>
-    </div>
+    <header className="header">
+    <img 
+        src={Logo}
+        className="header--image"
+        alt='logo'
+    />
+    <h2 className="header--title">Meme Generator</h2>
+    <h3 className="header--project">Github</h3>
+</header>
   )
 }
 
